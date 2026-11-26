@@ -1,145 +1,97 @@
-# Digital Operations & Agile Management
-
-**By Vinicius Scardua**
-
-A practical portfolio project demonstrating digital operations management, process improvement, project organization, and Agile methodologies using Jira and Confluence.
-
 ![Project](https://img.shields.io/badge/Project-Portfolio%20Simulation-365C50)
 ![Jira](https://img.shields.io/badge/Tool-Jira-0052CC)
 ![Confluence](https://img.shields.io/badge/Tool-Confluence-1868DB)
 ![Kanban](https://img.shields.io/badge/Method-Kanban-2E7D32)
 ![Scrum](https://img.shields.io/badge/Method-Scrum-6A5ACD)
 
----
+# Digital Operations & Agile Management
+
+**By Vinicius Scardua**
+
+A practical portfolio project demonstrating Digital Operations, process management, workflow organization, operational documentation, and Agile methodologies using Jira and Confluence.
+
+The project combines two independent fictional workstreams to demonstrate the practical application of Kanban and Scrum.
 
 ## 1. Project Overview
 
-This repository documents an independent portfolio project developed to practice and demonstrate knowledge of digital operations, process management, project organization, and Agile methodologies.
+This independent portfolio project explores how digital operations and process improvement initiatives can be structured, documented, prioritized, and tracked using Agile tools and practices.
 
-The project combines two fictional business scenarios to explore different approaches to organizing work, improving processes, and managing deliverables.
+It is divided into two fictional workstreams:
 
-The practical activities were carried out using **Jira** and **Confluence**, covering Kanban and Scrum workflows, backlog organization, task management, process mapping, operational documentation, and performance indicator definition.
-
-### Project Objectives
-
-- Demonstrate practical knowledge of Jira and Confluence.
-- Apply Kanban and Scrum concepts in separate project environments.
-- Organize and prioritize work items.
-- Practice backlog management and Sprint Planning.
-- Structure workflows and visualize work progress.
-- Document operational processes and standard procedures.
-- Define performance indicators and success criteria.
-- Build a portfolio with tangible evidence of tool usage and methodology application.
-
-## 2. Project Scope
-
-The portfolio is organized into two complementary workstreams.
-
-| Workstream | Focus | Methodology |
+| Workstream | Methodology | Focus |
 |---|---|---|
-| Digital Operations | Student onboarding process improvement | Kanban |
-| Student Onboarding Improvement | Discovery, planning, and process design | Scrum |
+| Digital Operations | Kanban | Workflow management, task organization, prioritization, and continuous improvement |
+| Student Onboarding Improvement | Scrum | Process discovery, backlog organization, sprint planning, and execution tracking |
 
-Both workstreams use fictional scenarios and simulated business contexts.
+## 2. Project Environments
+
+The practical work was organized in Jira, with supporting documentation developed in Confluence.
+
+- **[Jira — Digital Operations (Kanban)](https://viniciussworkspace-38722295.atlassian.net/jira/software/projects/KAN/list?jql=project%20%3D%20KAN%20ORDER%20BY%20cf%5B10019%5D%20ASC)** — Kanban board for operational workflow and task management.
+- **[Jira — Digital Operations (Scrum Simulation)](https://viniciussworkspace-38722295.atlassian.net/jira/software/projects/DOSS/boards/2/backlog)** — Scrum backlog and Sprint 1 planning and execution.
+- **[Confluence — Digital Operations](https://viniciussworkspace-38722295.atlassian.net/wiki)** — Documentation hub for processes, SOPs, workflow guidelines, performance indicators, and Scrum practices.
 
 ## 3. Tools & Methodologies
 
-### Jira
+**Tools**
+- Jira
+- Confluence
+- GitHub
+- Markdown
 
-Used for project organization, work item management, workflow visualization, backlog structuring, and Sprint tracking.
-
-Practical activities included:
-
-- Project and space configuration.
-- Work item creation and categorization.
-- Task prioritization.
-- Kanban board organization.
-- Product Backlog creation.
-- User Stories and Tasks.
-- Acceptance Criteria and Definition of Done.
-- Sprint creation and planning.
-- Sprint board tracking.
-
-### Confluence
-
-Used as the documentation environment for process definitions, operational guidelines, project information, and methodology documentation.
-
-Documentation produced includes:
-
-- Project overview.
-- Kanban Workflow & WIP Policy.
-- Process Mapping & Improvement Opportunities.
-- Student Onboarding Standard Operating Procedure (SOP).
-- Onboarding Performance Indicators & Measurement Framework.
-- Scrum Framework & Sprint 1 Documentation.
-
-### Methodologies
-
-**Kanban**
-- Workflow visualization.
-- Work item organization.
-- Work-in-progress (WIP) policy.
-- Status tracking.
-- Continuous flow concepts.
-
-**Scrum**
-- Product Backlog organization.
-- User Story and Task definition.
-- Backlog prioritization.
-- Sprint Planning.
-- Sprint Goal definition.
-- Sprint execution tracking.
-- Sprint Review and Retrospective planning.
+**Methodologies and practices**
+- Kanban
+- Scrum
+- Process Mapping
+- Workflow Management
+- Backlog Management
+- Sprint Planning
+- Continuous Improvement
+- Standard Operating Procedures (SOP)
 
 ## 4. Workstream 1 — Digital Operations (Kanban)
 
-### Business Scenario
+The first workstream focuses on organizing a fictional student onboarding improvement initiative through a Kanban workflow.
 
-A fictional educational business requires a more structured student onboarding process.
+**Objectives**
+- Organize operational activities and priorities.
+- Visualize work progress.
+- Define workflow stages and management guidelines.
+- Improve task visibility and work organization.
+- Document processes and operational procedures.
 
-The workstream focuses on understanding the existing process, identifying improvement opportunities, defining a future-state workflow, and documenting operational procedures.
+**Jira implementation**
 
-### Activities
-
-- Current-state process mapping.
-- Identification of onboarding bottlenecks.
-- Future-state workflow design.
-- Definition of onboarding success criteria.
-- Performance indicator framework.
-- SOP documentation.
-- Welcome communication planning.
-- Onboarding checklist definition.
-- Pilot validation planning.
-
-### Jira Configuration
-
-The Kanban workflow uses the following stages:
+A Kanban board was configured with five workflow stages:
 
 `Idea → To Do → In Progress → Testing → Done`
 
-A manual WIP policy was defined, with a suggested maximum of two work items in progress at a time.
+Work items were created, categorized, prioritized, and tracked across the workflow.
 
-The policy is monitored manually and is not an automated Jira constraint.
+A manual Work in Progress (WIP) guideline of a maximum of two items in progress was defined. This was documented as a management rule and was not technically enforced by Jira.
 
-### Confluence Documentation
-
-The workstream includes process mapping, operational documentation, workflow definitions, and performance indicator specifications.
-
-The performance indicators are proposed measurement frameworks, not actual measured business results.
+**Confluence documentation**
+- Kanban Workflow & WIP Policy
+- Process Mapping & Improvement Opportunities
+- Student Onboarding — Standard Operating Procedure (SOP)
+- Onboarding Performance Indicators & Measurement Framework
 
 ## 5. Workstream 2 — Student Onboarding Improvement (Scrum)
 
-### Business Scenario
+The second workstream applies Scrum fundamentals to a fictional student onboarding improvement initiative.
 
-A fictional educational institution seeks to improve the onboarding experience for newly enrolled students.
-
-The objective is to establish a structured process by identifying student needs, mapping onboarding activities, and defining measurable success criteria.
+**Objectives**
+- Understand the current onboarding process.
+- Identify potential process bottlenecks.
+- Define improvement opportunities.
+- Organize requirements into a Product Backlog.
+- Plan and track a simulated sprint.
 
 ### Product Backlog
 
-The initial Product Backlog contains 10 work items:
+The Product Backlog contains ten work items:
 
-| ID | Backlog Item | Type | Priority |
+| ID | Item | Type | Priority |
 |---|---|---|---|
 | US01 | Map the Student Onboarding Journey | Story | High |
 | US02 | Identify Student Onboarding Pain Points | Story | High |
@@ -154,73 +106,79 @@ The initial Product Backlog contains 10 work items:
 
 ### Sprint 1 — Discovery & Planning
 
-**Sprint Goal:**
+A one-week simulated sprint was created with the goal of understanding the current onboarding process, identifying pain points, and defining success criteria.
 
-Understand the current student onboarding process, identify pain points, and define success criteria.
+Three backlog items were selected:
 
-**Planned duration:** One week (simulated).
+- US01 — Map the Student Onboarding Journey
+- US02 — Identify Student Onboarding Pain Points
+- US03 — Define Onboarding Success Criteria
 
-**Selected work items:**
+**Execution snapshot**
+- US01 — Done
+- US02 — In Progress
+- US03 — To Do
 
-- US01 — Map the Student Onboarding Journey.
-- US02 — Identify Student Onboarding Pain Points.
-- US03 — Define Onboarding Success Criteria.
-
-### Sprint Execution Snapshot
-
-The first Sprint was started in Jira, and its work items were tracked on the Sprint board.
-
-The recorded snapshot shows:
-
-| Work Item | Status |
-|---|---|
-| US01 — Map the Student Onboarding Journey | Done |
-| US02 — Identify Student Onboarding Pain Points | In Progress |
-| US03 — Define Onboarding Success Criteria | To Do |
-
-The User Stories include descriptions, acceptance criteria, and Definition of Done.
-
-**Important:** This is an intermediate simulated execution snapshot. The Sprint Review and Retrospective are documented as planned activities, not completed events. No actual stakeholder feedback or business outcomes are claimed.
+The Sprint Review and Sprint Retrospective were documented as planned activities but were not conducted.
 
 ## 6. Evidence & Deliverables
 
-Screenshots and documentation are organized in the repository to demonstrate the practical work carried out in Jira and Confluence.
+Screenshots from Jira and Confluence demonstrate the practical configuration and use of the tools.
 
 ### Jira — Kanban
 
-![Jira Kanban Overview](evidence/jira/jira-project-progress-midpoint.png)
+![Jira Kanban project progress](evidence/jira/jira-project-progress-midpoint.png)
 
-### Jira — Scrum Overview
+*Kanban board showing the operational workflow and work item progress.*
 
-![Jira Scrum Overview](evidence/scrum/jira-scrum-sprint-01-execution.png)
+### Jira — Scrum
 
-### Jira — Sprint 1 Board
+![Scrum Sprint 1 execution](evidence/scrum/jira-scrum-sprint-01-execution.png)
 
-![Jira Scrum Sprint 1 Board](evidence/scrum/jira-scrum-sprint-01-board.png)
+*Sprint 1 execution snapshot showing the status of selected work items.*
+
+![Scrum Sprint 1 board](evidence/scrum/jira-scrum-sprint-01-board.png)
+
+*Scrum board configured for the Student Onboarding Improvement simulation.*
 
 ### Confluence — Scrum Documentation
 
-![Confluence Scrum Documentation](evidence/confluence/confluence-scrum-framework-sprint-01.png)
+![Confluence Scrum Framework](evidence/confluence/confluence-scrum-framework-sprint-01.png)
 
-## 7. Skills Demonstrated
+*Documentation of the Scrum framework and Sprint 1.*
 
-- Digital Operations Management.
-- Process Mapping and Improvement.
-- Operational Documentation.
-- Standard Operating Procedures (SOP).
-- Jira Project Management.
-- Confluence Documentation.
-- Kanban Workflow Management.
-- Scrum Fundamentals.
-- Product Backlog Organization.
-- User Story Definition.
-- Acceptance Criteria.
-- Sprint Planning and Tracking.
-- Performance Indicator Definition.
-- Work Organization and Prioritization.
+## 7. Project Documentation
 
-## 8. Project Structure
+Five supporting documents are available in the repository:
 
+| Document | Description |
+|---|---|
+| [Project Overview](docs/project-overview.md) | Project context, objectives, scope, and workstreams |
+| [Process Mapping](docs/process-mapping.md) | Current-state analysis, potential pain points, and proposed improvements |
+| [Onboarding SOP](docs/onboarding-sop.md) | Proposed standard operating procedure for student onboarding |
+| [Kanban Workflow](docs/kanban-workflow.md) | Workflow stages, WIP policy, and management guidelines |
+| [Scrum Framework](docs/scrum-framework.md) | Product Backlog, Sprint 1, user stories, and execution documentation |
+
+## 8. Skills Demonstrated
+
+- Digital Operations Management
+- Process Mapping and Improvement
+- Operational Documentation
+- Standard Operating Procedures (SOP)
+- Jira Project Management
+- Confluence Documentation
+- Kanban Workflow Management
+- Scrum Fundamentals
+- Product Backlog Organization
+- User Story Definition
+- Acceptance Criteria
+- Sprint Planning and Tracking
+- Performance Indicator Definition
+- Work Organization and Prioritization
+
+## 9. Repository Structure
+
+```text
 digital-operations-agile-management/
 │
 ├── README.md
@@ -242,19 +200,14 @@ digital-operations-agile-management/
     │
     └── confluence/
         └── confluence-scrum-framework-sprint-01.png
+```
 
-## 9. Disclaimer
+## 10. Disclaimer
 
-This is an independent portfolio project developed for practical learning and skills demonstration.
+This is an independent portfolio simulation created for learning and professional development.
 
-All business scenarios, organizations, processes, and data presented in this repository are fictional or simulated.
+All organizations, scenarios, processes, work items, and data are fictional.
 
-The project does not represent professional experience, an implementation for an actual company or client, or verified business results.
+The project does not represent a professional implementation for an actual company or client. It does not claim verified business results or real stakeholder feedback.
 
-The purpose is to demonstrate practical familiarity with Jira, Confluence, Kanban, Scrum, digital operations, and process management concepts.
-
----
-
-**Vinicius Scardua**  
-Digital Operations | Product Operations | Processes & Projects
-
+Its purpose is to demonstrate practical familiarity with Jira, Confluence, Kanban, Scrum, process documentation, and Digital Operations Management.
