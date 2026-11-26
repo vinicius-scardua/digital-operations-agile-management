@@ -192,7 +192,7 @@ Screenshots and documentation are organized in the repository to demonstrate the
 
 ### Jira — Scrum Overview
 
-![Jira Scrum Overview](evidence/scrum/jira-scrum-overview.png)
+![Jira Scrum Overview](evidence/scrum/jira-scrum-sprint-01-execution.png)
 
 ### Jira — Sprint 1 Board
 
