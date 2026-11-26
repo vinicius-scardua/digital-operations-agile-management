@@ -188,7 +188,7 @@ Screenshots and documentation are organized in the repository to demonstrate the
 
 ### Jira — Kanban
 
-![Jira Kanban Overview](evidence/jira/jira-kanban-overview.png)
+![Jira Kanban Overview](evidence/jira/jira-project-progress-midpoint.png)
 
 ### Jira — Scrum Overview
 
