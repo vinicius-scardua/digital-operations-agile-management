@@ -221,7 +221,6 @@ Screenshots and documentation are organized in the repository to demonstrate the
 
 ## 8. Project Structure
 
-```text
 digital-operations-agile-management/
 │
 ├── README.md
@@ -233,19 +232,16 @@ digital-operations-agile-management/
 │   ├── kanban-workflow.md
 │   └── scrum-framework.md
 │
-├── evidence/
-│   ├── jira/
-│   │   └── jira-kanban-overview.png
-│   │
-│   ├── scrum/
-│   │   ├── jira-scrum-overview.png
-│   │   └── jira-scrum-sprint-01-board.png
-│   │
-│   └── confluence/
-│       └── confluence-scrum-framework-sprint-01.png
-│
-└── project-deliverables/
-```
+└── evidence/
+    ├── jira/
+    │   └── jira-project-progress-midpoint.png
+    │
+    ├── scrum/
+    │   ├── jira-scrum-sprint-01-board.png
+    │   └── jira-scrum-sprint-01-execution.png
+    │
+    └── confluence/
+        └── confluence-scrum-framework-sprint-01.png
 
 ## 9. Disclaimer
 
